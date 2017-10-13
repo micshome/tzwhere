@@ -6,7 +6,7 @@
   ],
   "name": "tzwhere",
   "description": "Determine timezone from lat/long",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "directories" : {
     "lib": "lib",
@@ -27,12 +27,12 @@
     "url": "https://github.com/mattbornski/tzwhere.git"
   },
   "engines": {
-    "node": ">= 0.6"
+    "node": ">= 4.7.3"
   },
   "dependencies": {
-    "geolib": "1.2.5",
+    "geolib": "2.0.23",
     "simplesets": "1.2.0",
-    "timezone": "0.0.48"
+    "timezone": "4.7.3"
   },
   "devDependencies": {
     "mocha": "1.x"
